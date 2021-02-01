@@ -1,0 +1,49 @@
+add_plugin(GraphicsExtension
+  blurring.cpp
+  FramebufferCubeMap.cpp
+  FramebufferCubeMap.h
+  fullscreenHack.cpp
+  gl.h
+  GraphicsExtension.h
+  GraphicsExtension_script.cpp
+  HorizontalFovScaling.cpp
+  InteriorExtension.cpp
+  InteriorTriangleList.cpp
+  InteriorTriangleList.h
+  MarbleRenderer.cpp
+  MarbleRenderer.h
+  memoizeCamera.cpp
+  postProcessing.cpp
+  reflectiveMarble.cpp
+  TextureSwapping.cpp
+  TriangleList.cpp
+  TriangleList.h
+  TSMeshTriangleList.cpp
+  TSMeshTriangleList.h
+
+  difviewer/io.cpp
+  difviewer/material.cpp
+  difviewer/shader.cpp
+  difviewer/cubeMap.cpp
+  difviewer/skyMaterial.cpp
+  difviewer/io.h
+  difviewer/material.h
+  difviewer/shader.h
+  difviewer/cubeMap.h
+  difviewer/skyMaterial.h)
+
+target_include_directories(GraphicsExtension
+  PRIVATE
+    difViewer)
+
+target_link_libraries(GraphicsExtension
+  PUBLIC
+    GLHelper
+    glm
+    MathLib)
+
+if(WIN32)
+  target_link_libraries(GraphicsExtension
+    PRIVATE
+      ShLwApi.lib)
+endif()

@@ -1,0 +1,10 @@
+add_subdirectory(EventLib)
+add_subdirectory(GLHelper)
+add_subdirectory(MathLib)
+add_subdirectory(MBExtender)
+add_subdirectory(PluginLoader)
+add_subdirectory(TorqueLib)
+
+if(WIN32)
+  add_subdirectory(MBGPatcher)
+endif()

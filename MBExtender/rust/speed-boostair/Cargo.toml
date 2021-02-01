@@ -1,0 +1,13 @@
+[package]
+name = "speed-boostair"
+version = "0.1.0"
+authors = ["Derpking"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+log = { version = "0.4", features = ["release_max_level_debug", "std"] }
+mbx = { path = "../mbx" }
+mbx-gl = { path = "../mbx-gl" }

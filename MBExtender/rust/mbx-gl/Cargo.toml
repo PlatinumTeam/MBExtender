@@ -1,0 +1,15 @@
+[package]
+name = "mbx-gl"
+version = "0.1.0"
+authors = ["Derpking"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+
+[target.'cfg(target_os = "windows")'.dependencies]
+widestring = { version = "0.4" }
+winapi = { version = "0.3", features = ["libloaderapi", "minwindef", "std"] }
+
+[build-dependencies]
+gl_generator = "0.14"

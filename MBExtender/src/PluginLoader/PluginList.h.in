@@ -1,0 +1,9 @@
+#pragma once
+
+namespace {
+// This is automatically filled in by CMake - do not edit
+// Configure with USE_STATIC_PLUGIN_LIST=OFF to disable
+const char *const PluginList[] = {
+	@PLUGINS_C_ARRAY@
+};
+}  // namespace

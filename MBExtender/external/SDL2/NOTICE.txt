@@ -1,0 +1,1 @@
+This version of SDL2 has been modified for PlatinumQuest. This is here to satisify the zlib license requirement.

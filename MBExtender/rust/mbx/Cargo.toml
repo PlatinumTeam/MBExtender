@@ -1,0 +1,21 @@
+[package]
+name = "mbx"
+version = "0.1.0"
+authors = ["Derpking"]
+edition = "2018"
+
+[dependencies]
+float-cmp = "0.8"
+log = { version = "0.4", features = ["release_max_level_debug", "std"] }
+matrixmultiply = "0.2"
+mbx-proc = { path = "../mbx-proc" }
+nalgebra = { version = "0.22", optional = true }
+num-traits = "0.2"
+
+[build-dependencies]
+rustc_version = "0.2"
+
+[build-dependencies.bindgen]
+version = "0.53.1"
+default-features = false
+features = ["runtime"]

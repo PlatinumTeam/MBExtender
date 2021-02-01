@@ -1,0 +1,7 @@
+#ifndef MBEXTENDER_CONFIG_H
+#define MBEXTENDER_CONFIG_H
+
+#cmakedefine HAVE_CPUID_H
+#cmakedefine HAVE_INTRIN_H
+
+#endif

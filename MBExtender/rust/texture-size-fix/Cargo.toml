@@ -1,0 +1,12 @@
+[package]
+name = "texture-size-fix"
+version = "0.1.0"
+authors = ["Derpking"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+mbx = { path = "../mbx" }
+mbx-gl = { path = "../mbx-gl" }
