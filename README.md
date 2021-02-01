@@ -2,6 +2,8 @@
 
 This is the main repository for PlatinumQuest's MBExtender build, containing the source to all the plugins needed to run the game.
 
+See [PlatinumQuest](https://github.com/PlatinumTeam/PlatinumQuest/) for the game files including scripts and art.
+
 License
 --
 MIT License for all PQ code. Third party dependencies under their own licenses, see MBExtender/LICENSES.txt
