@@ -1,4 +1,4 @@
-set(USE_STATIC_PLUGIN_LIST ON
+set(USE_STATIC_PLUGIN_LIST OFF
   CACHE BOOL "Set up PluginLoader to only load the plugins built here and require them to exist.")
 
 set(PLUGINLIST_SOURCES)
