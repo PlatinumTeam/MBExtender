@@ -14,8 +14,6 @@ Contributing
 --
 While there's no formal CLA, your contributions, if included, will also be released here under the MIT license and included in binary form in the game.
 
-If you need help with anything, we have a [Discord server](https://discord.gg/7MzhTgRN5s) for discussing PQ development.
-
 Requirements
 --
 * CMake >= 3.14
