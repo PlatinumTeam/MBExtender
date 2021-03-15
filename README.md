@@ -2,6 +2,8 @@
 
 This is the main repository for PlatinumQuest's MBExtender build, containing the source to all the plugins needed to run the game.
 
+**No longer actively maintained!** As of March 2021, this project is no longer maintained due to a lack of willing maintainers. The repository is preserved as a reference but no further changes are planned to be accepted and no future builds are planned.
+
 See [PlatinumQuest](https://github.com/PlatinumTeam/PlatinumQuest/) for the game files including scripts and art.
 
 License
